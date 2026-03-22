@@ -1,38 +1,26 @@
-# sales-performance-dashboard
-Sales analysis project using SQL and Power BI
-CREATE DATABASE sales_project;
-USE sales_project;
-SELECT * FROM salestable LIMIT 10;
-SHOW COLUMNS FROM salestable;
+Sales Performance Dashboard
+📌 Objective
 
-SELECT SUM(Sales) AS total_sales
-FROM salestable;
+Analyze sales data to identify trends, top-performing products, and regional performance.
 
-SELECT 
-    Region,
-    SUM(Sales) AS total_sales
-FROM salestable
-GROUP BY Region
-ORDER BY total_sales DESC;
+🛠 Tools Used
+SQL
+Excel
+Power BI
 
-SELECT 
-    `Product Name`,
-    SUM(Sales) AS total_sales
-FROM salestable
-GROUP BY `Product Name`
-ORDER BY total_sales DESC
-LIMIT 10;
+📊 Key Analysis
+Sales by region
+Sales by category
+Monthly sales trend
+Top 10 products
 
-SELECT 
-    Category,
-    SUM(Sales) AS total_sales
-FROM salestable
-GROUP BY Category
-ORDER BY total_sales DESC;
+📈 Insights
+Technology category generated highest sales
+East region contributed most revenue
+Sales show a declining trend over time
+📷 Dashboard Preview
 
-SELECT 
-    `Order Month`,
-    SUM(Sales) AS total_sales
-FROM salestable
-GROUP BY `Order Month`
-ORDER BY `Order Month`;
+📁 Files Included
+Dataset (CSV)
+SQL queries
+Power BI dashboard screenshot
