@@ -1,4 +1,4 @@
-Sales Performance Dashboard
+📊 Sales Performance Dashboard
 📌 Objective
 
 Analyze sales data to identify trends, top-performing products, and regional performance.
@@ -19,6 +19,8 @@ Technology category generated highest sales
 East region contributed most revenue
 Sales show a declining trend over time
 📷 Dashboard Preview
+
+![Dashboard](Screenshot 2026-03-23 030524.png)
 
 📁 Files Included
 Dataset (CSV)
